@@ -1,0 +1,35 @@
+# ----------------------------------------------------------------------- #
+#                                                                         #
+#                               YMAL文件语法                               #
+#                       http://medai.icu/thread/677                       #
+#                                                                         #
+# ----------------------------------------------------------------------- #
+radio_dir: F:\OnekeyDS\CT
+label_file: F:\OnekeyDS\CT\label_icc.csv
+task_column: label
+dataset_column: group
+clinic_file: F:\OnekeyDS\survival.csv
+stats_columns:
+- chemotherapy
+- gender
+- result
+- duration
+- age
+- BMI
+- degree
+- Tstage
+- smoke
+- drink
+continuous_columns:
+- age
+- duration
+- BMI
+clinic_sel_columns:
+- age
+- BMI
+- chemotherapy
+- gender
+- drink
+- smoke
+sel_model: LR
+font.size: 12

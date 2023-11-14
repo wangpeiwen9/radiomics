@@ -1,0 +1,16 @@
+{
+ "num_classes": 2,
+ "model_name": "resnet50",
+ "transform": {
+  "input_size": [
+   224,
+   224
+  ],
+  "normalize_method": "imagenet"
+ },
+ "device": "cpu",
+ "type": "what",
+ "vit_settings": null,
+ "acc": 72.91666666666667,
+ "best_epoch": 28
+}

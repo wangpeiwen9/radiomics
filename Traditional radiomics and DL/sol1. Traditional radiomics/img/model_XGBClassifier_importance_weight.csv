@@ -1,0 +1,8 @@
+feature_name,importance
+original_gldm_DependenceVariance,0.24280508
+original_firstorder_Energy,0.14605173
+original_glrlm_LongRunLowGrayLevelEmphasis,0.14218313
+original_firstorder_Kurtosis,0.14198302
+original_glrlm_GrayLevelNonUniformityNormalized,0.13352202
+original_firstorder_Minimum,0.1091887
+original_glrlm_ShortRunEmphasis,0.084266335
